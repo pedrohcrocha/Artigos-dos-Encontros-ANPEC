@@ -11,6 +11,7 @@ import pandas as pd
 
 # Alguns anos estão dividos por Áreas, outros não. Criei duas funções para
 # acomodar os dois casos. Em especial, o ano de 2015 ainda dá problemas. 
+# Ainda tem muita bagunça no nome dos artigos, mas é fácil corrigir.
 
 # Funções para os anos com áreas definidas
 def get_pattern_artigos(ano):  
